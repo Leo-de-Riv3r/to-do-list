@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+
+*{
+  font-size:120%;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +32,20 @@
 
 .App-link {
   color: #61dafb;
+}
+
+input{
+  border: .3rem inset #a2e4a2;
+  width:78%;
+  border-radius: .2rem;
+  text-align:center;
+}
+
+input:focus{  
+  border: .3rem inset skyblue;
+  width:78%;
+  border-radius: .2rem;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
