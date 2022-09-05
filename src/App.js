@@ -31,10 +31,12 @@ class App extends Component {
     });
     localStorage.task += this.state.newTask + ",";
   };
+  
   handleDelete = (event) => {
   event.preventDefault();
   localStorage.task = "" && window.location.reload()
-  }
+  };
+
   render() {
     if (Boolean(localStorage["task"])) {
       tasks = localStorage.getItem("task").split(",");
